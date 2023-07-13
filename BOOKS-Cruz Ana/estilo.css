@@ -1,0 +1,135 @@
+
+header{
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding: 6%;
+    color: #ecdac6;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #926947;
+}
+
+.menu1{
+    background-color:#ecdac6;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #66280A;
+    border-bottom: 2px solid #66280A;
+}
+
+nav.menu1 a{
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #7d5039;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-style: bold;
+    text-decoration: none;
+}
+
+#cont{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#izq{
+    background-image: url(img/libros.png);
+    border: 2px solid #66280A;
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 85px;
+    margin:10px;
+}
+
+#drc{ 
+    background-image: url(img/bvn.png);
+    width: 550px;
+    height: 500px;
+    border-bottom-left-radius:  85px;
+    border-top-right-radius: 100px;
+    margin: 10px;
+}
+
+#cont2{
+    display: flex;
+    justify-content: center;
+}
+
+#cont2{
+    width: 850px;
+    height: 350px;
+    position: absolute;
+    left: 25%;
+    background-image: url(img/casita.png);
+    border: 1px solid ;
+    color: #66280A;
+    padding: 50px;
+    top: 1000px;
+    border-top-left-radius: 85px;
+    border-top-right-radius: 85px;
+}
+
+
+
+#arriba{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Caviar Dreams', sans-serif;
+    width: 850px;
+    height: 50px;
+    position: absolute;
+    left: 25%;
+    background-color:#ecdac6;
+    border: 2px solid #66280A;
+    color: #66280A;
+    padding: 50px;
+    top: 980px;
+    border-top-left-radius: 85px;
+    border-top-right-radius: 85px;
+}
+
+#cont3{
+    width: 850px;
+    height: 350px;
+    position: absolute;
+    left: 25%;
+    position: fixed 30%;
+    background-image: url(img/entre.png);
+    border: 1px solid #66280A;
+    color: #66280A;
+    padding: 50px;
+    top: 1520px;
+    border-bottom-left-radius: 85px;
+    border-bottom-right-radius: 85px;
+}
+
+#encima{
+    text-align:center;
+    font-size: 40px;
+    font-family: 'Caviar Dreams', sans-serif;
+    width: 850px;
+    height: 25px;
+    position: absolute;
+    left: 25%;
+    background-color: #ecdac6;
+    border: 2px solid #66280A;
+    color: #66280A;
+    padding: 50px;
+    top: 1500px;
+}
+
+footer {
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 200px;
+    top: 900px;
+    }

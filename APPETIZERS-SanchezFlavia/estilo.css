@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imágenes/fondo3.jpg);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-size: 80px;
+    color: #ecdac6;
+}
+
+.barra1 {
+    background-color: #ecdac6;
+    color: #66280A;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+
+}
+
+nav.barra1 a {
+    display: inline-block;
+    padding: 10px;
+    border-right: 1px solid #000000;
+    font-family: 'Caviar Dreams', sans-serif;
+    font-style: bold;
+    text-decoration: none;
+}
+h2{
+    float: right;
+    text-align: center;
+    font-size: 50px;
+    width: 300px;
+    background-color: #ecdac6;
+    border: 1px solid black;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    font-family: 'Caviar Dreams', sans-serif;
+    color: #66280A;
+  
+}
+
+#contenedor{
+    display: flex;
+   justify-content: center;
+}
+
+#cuadro1{ 
+    background-color: #ffffff;
+    border: 2px solid #66280A;
+    width: 300px;
+    height: 500px;
+    border-bottom-left-radius: 200px;
+    margin: 10px;
+    background-image: url(imágenes/galletas.jpg);    
+}
+
+#cuadro2{
+    border: 2px solid #66280A;
+    background-image: url(imágenes/muffins.jpg);
+    background-color: #ffffff:
+    height: 500px;
+    width: 300px;
+    height: 500px;
+    border-top-right-radius: 200px;
+    margin: 10px;
+ 
+}
+
+.rectangulo {
+    width: 1300px;
+    height: 250px;
+     
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+   background-color: #996225;
+    position:relative;
+    border-radius: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+p{
+ text-align: center;
+ font-size: 40px;
+ font-family: 'Caviar Dreams', sans-serif;
+ color: #ecdac6;
+}
+
+.cuadrado1 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/cheesecake\ de\ maracuya.jpg);
+}
+
+.cuadrado2 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/torta\ de\ chocolate.jpg);
+}
+
+.cuadrado3 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/cinnamon\ roll\ 1.jpg);
+}
+
+.cuadrado4 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/Tres-Leches.jpg);
+}
+
+.cuadrado5 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid ;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/sandwich\ de\ pollo.jpg);
+}
+
+.cuadrado6 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/sandwich\ jamon.jpg);
+}
+
+.cuadrado7 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/triples.jpg);
+}
+
+.cuadrado8 {
+    justify-content:center;
+    width: 200px;
+    height: 200px;
+    background-color:#ffffff;
+    border: 2px solid #66280A;
+    margin-left: 1px;
+    display: flex;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    margin: 40px;
+    margin-left: 70px;
+    margin-top: 4.2px;
+    background-image: url(imágenes/empanadas.jpg);
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    top: 300px;
+    border-top: 2px solid #000000;
+}
